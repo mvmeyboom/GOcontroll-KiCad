@@ -1,0 +1,50 @@
+(footprint "97740xx243R" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 6b047a50-1597-4eeb-b0ac-17b17b617dfb)
+  )
+  (fp_text value "97740xx243R" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fd05b86f-6624-40d2-ab26-834a09de39b7)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 329c1d25-ab70-4647-9670-c80105fb8f9b)
+  )
+  (fp_poly
+    (pts
+      (arc (start -2.549999 0.23) (mid -1.810441 1.810441) (end -0.23 2.549999))
+      (arc (start -0.229998 1.539997) (mid -1.10102 1.10102) (end -1.539997 0.229998))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 4af5abd6-caeb-4099-8915-d6f9f43c17fc))
+  (fp_poly
+    (pts
+      (arc (start -1.539997 -0.229998) (mid -1.10102 -1.10102) (end -0.229998 -1.539997))
+      (arc (start -0.23 -2.549999) (mid -1.810441 -1.810441) (end -2.549999 -0.23))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 92924ee5-21af-4896-ab2e-e15cf4a34778))
+  (fp_poly
+    (pts
+      (arc (start 0.23 2.549999) (mid 1.810441 1.810441) (end 2.549999 0.23))
+      (arc (start 1.539997 0.229998) (mid 1.10102 1.10102) (end 0.229998 1.539997))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 13ff36cf-047a-4893-86ed-307b711c6c11))
+  (fp_poly
+    (pts
+      (arc (start 1.539999 -0.23) (mid 1.101022 -1.101022) (end 0.23 -1.539999))
+      (arc (start 0.23 -2.549999) (mid 1.810441 -1.810441) (end 2.549999 -0.23))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp cb51ad32-8224-41ad-beb0-03cba075fd38))
+  (pad "1" thru_hole circle (at 0 0) (size 5.3 5.3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 8c44bab2-9631-4d1b-9db1-7d2838e748b1))
+  (model ":SNAPEDA_3D:9774030243R (rev1).stp"
+    (offset (xyz 0 0 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
