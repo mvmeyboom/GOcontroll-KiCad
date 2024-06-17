@@ -208,7 +208,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7760f18c-e738-4041-a2c9-33eac04d768a")
 	)
-	(model "C:/Users/MeesMeyboomGOcontrol/Documents/KiCad/8.0/3dmodels/ABM8AIG-12.000MHz-2-T.step"
+	(model "${KICAD8_USER_3DMODEL_DIR}/ABM8AIG-12.000MHz-2-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

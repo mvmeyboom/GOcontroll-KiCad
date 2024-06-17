@@ -1,21 +1,185 @@
-
-(module SPKR_AST-03208MR-R (layer F.Cu) (tedit 64A6A475)
-  (descr "")
-  (fp_text reference REF** (at 3.175 -17.385 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value SPKR_AST-03208MR-R (at 11.43 17.385 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad P thru_hole circle (at -8.765 0.0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
-  (pad N thru_hole circle (at 8.765 0.0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
-  (fp_circle (center 0.0 0.0) (end 15.95 0.0) (layer F.SilkS) (width 0.127))
-  (fp_circle (center 0.0 0.0) (end 15.95 0.0) (layer F.Fab) (width 0.127))
-  (fp_circle (center 0.0 0.0) (end 16.2 0.0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -18.25 0.0) (end -17.25 0.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start -17.75 -0.5) (end -17.75 0.5) (layer F.SilkS) (width 0.127))
-  (fp_line (start -18.25 0.0) (end -17.25 0.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -17.75 -0.5) (end -17.75 0.5) (layer F.Fab) (width 0.127))
-  (fp_line (start 17.0 0.0) (end 18.0 0.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 17.0 0.0) (end 18.0 0.0) (layer F.SilkS) (width 0.127))
+(footprint "SPKR_AST-03208MR-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.175 -17.385 0)
+		(layer "F.SilkS")
+		(uuid "1cf2aba2-b7b6-4c7b-9a69-ef6bda8310b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPKR_AST-03208MR-R"
+		(at 11.43 17.385 0)
+		(layer "F.Fab")
+		(uuid "a691f775-5563-4f32-81cf-afe75df1493c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25a88203-89b2-44f4-a3dc-86959019c967")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a55f182-ef70-4dc2-832b-e7f5310b41b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd72bba1-2568-4bf1-aebd-130d116740e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -18.25 0)
+		(end -17.25 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24819487-f1be-4a68-887a-8c774e144e67")
+	)
+	(fp_line
+		(start -17.75 -0.5)
+		(end -17.75 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ccfe3ea0-0dfc-436b-803b-6598b2bd5f65")
+	)
+	(fp_line
+		(start 17 0)
+		(end 18 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f051d8ba-b0c9-4aa3-aaca-66d4e4f9b28b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0227646b-259a-4a41-85ee-17800fcd4135")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 16.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8ef1b849-2194-41e3-b6d3-cba388048ef2")
+	)
+	(fp_line
+		(start -18.25 0)
+		(end -17.25 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57fbdc29-56e3-427d-a1da-85922689dee2")
+	)
+	(fp_line
+		(start -17.75 -0.5)
+		(end -17.75 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c550ddc-f221-46c8-b4ba-d119e180a523")
+	)
+	(fp_line
+		(start 17 0)
+		(end 18 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d270282d-40d1-48d1-ba34-b3f2f1d20e70")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "429a8634-db27-4515-aa2c-daaaa2fae8ed")
+	)
+	(pad "N" thru_hole circle
+		(at 8.765 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff158b9a-ddbf-4a44-8fb6-e16afcdacc75")
+	)
+	(pad "P" thru_hole circle
+		(at -8.765 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43980f05-2c9d-4256-9e29-ca0294b870c6")
+	)
+	(model "${KICAD8_USER_3DMODEL_DIR}/AST-03208MR-R.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

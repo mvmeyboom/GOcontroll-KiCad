@@ -1,17 +1,89 @@
-(footprint "STENCIL ALIGNMENT HOLE Ø1.1mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 358d9843-9ada-42f5-bafc-13fb1dc8dc0e)
-  )
-  (fp_text value "STENCIL ALIGNMENT HOLE Ø1.1mm" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9a2fbc1e-0e15-4bc7-9813-93f6734e8729)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f91e045c-9fbc-4f1c-81c7-388b9ec0460e)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1.1) (layers "*.Cu" "*.Paste" "*.Mask") (tstamp 2970d25e-bf93-4ca6-b978-76d50f7ced69))
+(footprint "STENCIL ALIGNMENT HOLE Ø1.1mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "358d9843-9ada-42f5-bafc-13fb1dc8dc0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "STENCIL ALIGNMENT HOLE Ø1.1mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a2fbc1e-0e15-4bc7-9813-93f6734e8729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f831ae4-31ea-4c92-8c16-08ab7bf75796")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6ff3f00-095f-4dfe-acca-22fd49093958")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f20dddb-5740-4dfa-aa3b-a7784f71ae13")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f91e045c-9fbc-4f1c-81c7-388b9ec0460e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1.1)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(solder_paste_margin -0.2)
+		(uuid "2970d25e-bf93-4ca6-b978-76d50f7ced69")
+	)
 )

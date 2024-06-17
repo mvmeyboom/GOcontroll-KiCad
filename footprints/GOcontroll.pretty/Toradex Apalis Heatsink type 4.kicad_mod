@@ -1,22 +1,100 @@
-(footprint "Toradex Apalis Heatsink type 4" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 466e5d68-c463-4672-b394-bfe46eb2a1e0)
-  )
-  (fp_text value "Toradex Apalis Heatsink type 4" (at 0 1 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 9a8edc49-b2e6-4df4-935b-d6240ee3586c)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d81d0fe3-c666-4b9b-9e23-17ff22c25dec)
-  )
-  (fp_rect (start -0.5 -0.5) (end 0.5 0.5)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp f6919ffc-7cd4-4e33-b9c3-28556824da37))
-  (model ":SNAPEDA_3D:23081000_Apalis Heatsink Type4.STEP"
-    (offset (xyz 41 -20.5 4.6))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "Toradex Apalis Heatsink type 4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "466e5d68-c463-4672-b394-bfe46eb2a1e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Toradex Apalis Heatsink type 4"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a8edc49-b2e6-4df4-935b-d6240ee3586c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e63bc384-b35f-4a11-ba88-8863a6b14e56")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4f1a68c-db59-4b9c-ab24-60485fc3ba64")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e5473c7-5435-449e-9c42-88d81003df2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f6919ffc-7cd4-4e33-b9c3-28556824da37")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d81d0fe3-c666-4b9b-9e23-17ff22c25dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD8_USER_3DMODEL_DIR}/23081000_Apalis Heatsink Type4.STEP"
+		(offset
+			(xyz 41 -20.5 4.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
