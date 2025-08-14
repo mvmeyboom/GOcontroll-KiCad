@@ -1,0 +1,110 @@
+(footprint "24.243.4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Multicomp Right Angle Banana Test Connector Green")
+	(tags "banana, multicomp")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "914b4783-cb3b-47d0-a5bd-d2741f22b547")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bbb13f1-21ae-4bb1-88ab-0f63e7e1895a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.farnell.com/datasheets/4319447.pdf?_gl=1*m1997a*_gcl_aw*R0NMLjE3NDQ2MzUzNTcuRUFJYUlRb2JDaE1JNTdIR2ljblhqQU1WeEtPREJ4MGc2QWxKRUFNWUFTQUFFZ0xZOHZEX0J3RQ..*_gcl_au*MjAzMTk4NjgzNy4xNzQ2NTIwNzk3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8f2ad11-132d-49b9-9d3a-2fe2c168eae7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89e2fbd3-44d4-45eb-8ec5-d7e45ce95c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.05 -20.5)
+		(end 5.05 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cc416fd3-a463-4d3c-8c25-488afe26f6ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bec307f-0c09-4db9-a4c1-e06fd0769edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50c13d35-8046-4dee-a093-c177a920c60e")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -15.5)
+		(size 3.5 3.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "788e7b21-04a2-4138-818a-a91ebd6c4bf4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_USER_3DMODEL_DIR}/24.243.4.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

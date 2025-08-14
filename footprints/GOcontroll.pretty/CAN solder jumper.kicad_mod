@@ -1,0 +1,215 @@
+(footprint "CAN solder jumper"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0475 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "43539714-9c3c-494c-aebb-1cfa58ecbf2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1855546-ffae-489b-82a4-27d890634cb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1659528b-d65a-4581-8a96-ec56bdf0fd80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0a6b054-de3c-4319-b7b9-7d0337e03d72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "2d914d1f-8f5a-45dc-823b-5505ae3446a2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b5e97a2e-2f78-4837-bc87-920fae5480c4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c96c0ee9-d329-437a-affa-dec1bb77505f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.439014 0.66878)
+		(size 0.245 0.245)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 0.439014 0.131782)
+				(mid 0.014336 0.009857)
+				(end -0.280986 -0.31878)
+				(width 0.5)
+			)
+			(gr_poly
+				(pts
+					(xy -0.21125 -0.08575) (xy -0.208453 -0.099814) (xy -0.200486 -0.111736) (xy -0.188564 -0.119703)
+					(xy -0.1745 -0.1225) (xy 0.1745 -0.1225) (xy 0.188564 -0.119703) (xy 0.200486 -0.111736) (xy 0.208453 -0.099814)
+					(xy 0.21125 -0.08575) (xy 0.21125 0.08575) (xy 0.208453 0.099814) (xy 0.200486 0.111736) (xy 0.188564 0.119703)
+					(xy 0.1745 0.1225) (xy -0.1745 0.1225) (xy -0.188564 0.119703) (xy -0.200486 0.111736) (xy -0.208453 0.099814)
+					(xy -0.21125 0.08575)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "95e1a8a6-c968-497c-85d9-cdb1ff5e1dea")
+	)
+	(pad "2" smd custom
+		(at 0.375 -0.000078)
+		(size 0.505 0.505)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.015 -0.309922) (xy 0.255 -0.669922) (xy 0.485 -0.339922) (xy 0.555 0.150078) (xy 0.285 0.630078)
+					(xy 0.195 0.690078) (xy 0.025 0.260078) (xy -0.025 -0.279922) (xy 0 -0.309922)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_arc
+				(start 0.173208 -0.793086)
+				(mid 0.589114 -0.001053)
+				(end 0.174939 0.791887)
+				(width 0.2)
+			)
+			(gr_arc
+				(start -0.375 0.250078)
+				(mid 0.010991 0.408273)
+				(end 0.174939 0.791855)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 0.173422 -0.792937)
+				(mid 0.010347 -0.409636)
+				(end -0.375 -0.251456)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy -0.45625 -0.179172) (xy -0.450484 -0.20816) (xy -0.434063 -0.232735) (xy -0.409488 -0.249156)
+					(xy -0.3805 -0.254922) (xy 0.1505 -0.254922) (xy 0.179488 -0.249156) (xy 0.204063 -0.232735) (xy 0.220484 -0.20816)
+					(xy 0.22625 -0.179172) (xy 0.22625 0.174328) (xy 0.220484 0.203316) (xy 0.204063 0.227891) (xy 0.179488 0.244312)
+					(xy 0.1505 0.250078) (xy -0.3805 0.250078) (xy -0.409488 0.244312) (xy -0.434063 0.227891) (xy -0.450484 0.203316)
+					(xy -0.45625 0.174328)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center -0.375 0.000078)
+				(end -0.125 0.000078)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.375 -0.250078)
+				(end 0.225 0.250078)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "97629152-8375-4c75-890a-444598138b04")
+	)
+	(pad "3" smd custom
+		(at -0.443194 -0.666017)
+		(size 0.245 0.245)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start -0.276806 0.316017)
+				(mid 0.018516 -0.01262)
+				(end 0.443194 -0.134545)
+				(width 0.5)
+			)
+			(gr_poly
+				(pts
+					(xy -0.22625 -0.08575) (xy -0.223453 -0.099814) (xy -0.215486 -0.111736) (xy -0.203564 -0.119703)
+					(xy -0.1895 -0.1225) (xy 0.1895 -0.1225) (xy 0.203564 -0.119703) (xy 0.215486 -0.111736) (xy 0.223453 -0.099814)
+					(xy 0.22625 -0.08575) (xy 0.22625 0.08575) (xy 0.223453 0.099814) (xy 0.215486 0.111736) (xy 0.203564 0.119703)
+					(xy 0.1895 0.1225) (xy -0.1895 0.1225) (xy -0.203564 0.119703) (xy -0.215486 0.111736) (xy -0.223453 0.099814)
+					(xy -0.22625 0.08575)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "7c05f418-b634-40b7-ae1a-ff1436ce881a")
+	)
+	(group ""
+		(uuid "9c1f7e3a-98ce-4c2b-b51d-8231de1c7e39")
+		(members "97629152-8375-4c75-890a-444598138b04")
+	)
+	(embedded_fonts no)
+)

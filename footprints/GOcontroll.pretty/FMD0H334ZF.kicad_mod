@@ -1,0 +1,109 @@
+(footprint "FMD0H334ZF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "330 mF (EDLC) supercondensators 5.5 V Radial 25Ohm @ 1kHz 1000 uur @ 85°C")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c283f37f-ea19-48fc-95ac-b604baf4b68b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0.33uF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eccdf61b-1e48-49b1-8d14-d1f37c37c20b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://content.kemet.com/datasheets/KEM_S6022_FMD.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4ca2225-23ce-4de9-a623-c001a0e12da2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "330 mF (EDLC) supercondensators 5.5 V Radial 25Ohm @ 1kHz 1000 uur @ 85°C"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e6abee-b0db-4999-8b23-bb6d80aa43f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7 4.5)
+		(end 7 -4.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c10eda1d-50c9-4431-8326-cc0ae87d0e11")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b31e7128-032d-43ba-aad0-722594456c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "817b793e-65d5-4516-a755-3e27cb7d7aa3")
+	)
+	(pad "2" thru_hole rect
+		(at -2.5 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7adec84c-4e37-43ff-8c5e-6eea0c88dcea")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_USER_3DMODEL_DIR}/FMD0H334ZF.step"
+		(offset
+			(xyz -7.25 4.75 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

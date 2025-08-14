@@ -1,0 +1,162 @@
+(footprint "7466003R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WP-SMBU REDCUBE SMT with internal through-hole thread M3 H=5.0mm")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e400d4cf-9f1b-4566-b360-940437fd3a6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "07949b70-4889-485f-9df9-e3f0c57727f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7466003R.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "365719db-291e-4ef0-9131-ce35447b0fe5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WP-SMBU REDCUBE SMT with internal through-hole thread M3 H=5.0mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06359f5e-457e-48d1-a4b8-f2474164df94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(arc
+				(start -2.05 0.5)
+				(mid -1.492062 1.492062)
+				(end -0.5 2.05)
+			)
+			(arc
+				(start -0.5 4.2)
+				(mid -2.990819 2.990819)
+				(end -4.2 0.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "b1bfdc03-a24d-4c58-8987-2cd5b40f7afc")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start -0.513758 -2.05)
+				(mid -1.50582 -1.492062)
+				(end -2.063758 -0.5)
+			)
+			(arc
+				(start -4.213758 -0.5)
+				(mid -3.004577 -2.990819)
+				(end -0.513758 -4.2)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "632ea42d-2553-4ec9-b78a-faf885c5a1f8")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 0.503005 2.065144)
+				(mid 1.495067 1.507206)
+				(end 2.053005 0.515144)
+			)
+			(arc
+				(start 4.203005 0.515144)
+				(mid 2.993824 3.005963)
+				(end 0.503005 4.215144)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "e27a3e0b-ef07-4d00-8899-7f7f8bf3debb")
+	)
+	(fp_poly
+		(pts
+			(arc
+				(start 2.05 -0.5)
+				(mid 1.492062 -1.492062)
+				(end 0.5 -2.05)
+			)
+			(arc
+				(start 0.5 -4.2)
+				(mid 2.990819 -2.990819)
+				(end 4.2 -0.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "01598588-cd76-44a8-91e9-f89300df90ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "229657cb-08d8-44c2-ab69-a0f7e8c76f24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 8.5 8.5)
+		(drill 4.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "79bd6b04-3964-4e13-8925-9a3eb17aceb1")
+	)
+	(embedded_fonts no)
+)

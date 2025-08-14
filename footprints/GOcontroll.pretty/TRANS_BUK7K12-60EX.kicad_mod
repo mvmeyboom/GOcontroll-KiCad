@@ -9,7 +9,7 @@
 		(uuid "99c27a47-da32-48cf-a322-8718a38d6273")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.75 0.75)
 				(thickness 0.15)
 			)
 		)
@@ -20,7 +20,7 @@
 		(uuid "81e6b45a-aa2e-43ef-8160-dcfad71456a7")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.75 0.75)
 				(thickness 0.15)
 			)
 		)
@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
