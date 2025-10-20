@@ -159,4 +159,15 @@
 		(uuid "79bd6b04-3964-4e13-8925-9a3eb17aceb1")
 	)
 	(embedded_fonts no)
+	(model "${KICAD8_USER_3DMODEL_DIR}/Download_STP_7466003R (rev1).stp"
+		(offset
+			(xyz 0 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
 )

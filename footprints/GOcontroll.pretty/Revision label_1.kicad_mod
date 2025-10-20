@@ -1,0 +1,233 @@
+(footprint "Revision label_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "acd1fe49-8104-4ecc-b54b-d5b0205ff0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at -7 1.03827 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72eb3736-eab1-49c5-8f51-b4e27b5dd3aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b66e403d-484b-4eb6-83d0-2d2513d55964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09cf0ad2-e0be-46a1-80ba-a5b2a9ae6d3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -3.25 2.75)
+		(end -3.25 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3384882-ca63-48ad-a8c8-69eee7dccd54")
+	)
+	(fp_line
+		(start -2.75 -3.25)
+		(end 2.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90470652-b27b-403d-91ab-aa11f8495158")
+	)
+	(fp_line
+		(start 2.75 3.25)
+		(end -2.75 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b662b03b-2e3a-475c-a965-43325c220581")
+	)
+	(fp_line
+		(start 3.25 -2.75)
+		(end 3.25 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5018d91b-6108-4c76-8753-5b903f683f4a")
+	)
+	(fp_arc
+		(start -3.25 -2.75)
+		(mid -3.103553 -3.103553)
+		(end -2.75 -3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "044c59e1-3020-4a70-83e9-4bf86a6c59a1")
+	)
+	(fp_arc
+		(start -2.75 3.25)
+		(mid -3.103553 3.103553)
+		(end -3.25 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ead3e4ff-9e45-443b-9de8-c3fecf6a1596")
+	)
+	(fp_arc
+		(start 2.75 -3.25)
+		(mid 3.103553 -3.103553)
+		(end 3.25 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba3232b1-8c8e-44b0-912f-a177ffef25c1")
+	)
+	(fp_arc
+		(start 3.25 2.75)
+		(mid 3.103553 3.103553)
+		(end 2.75 3.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4944835e-b519-45f4-bc4e-62a0d1d7f059")
+	)
+	(fp_text user "MAIN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "033f2e30-a8e2-4ab2-a4f3-bd492190fc58")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "20250819"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "085dc189-9475-4f52-8fab-edddb9018649")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "MICRO"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5522a240-15e0-43e5-8920-2014eab8e168")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "BOARD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "88c199b6-0459-471c-ab42-edac92593804")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "MODULINE"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "db511e3b-35e1-4fe2-b2a0-fadd5a3c5766")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "REV 1.00"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dd6b21e8-e6e6-4e3c-865d-d2331b3931d5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb575f38-7d2c-4531-bcdd-f30498119e3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
