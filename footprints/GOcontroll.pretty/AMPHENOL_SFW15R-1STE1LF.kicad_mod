@@ -1,7 +1,7 @@
 (footprint "AMPHENOL_SFW15R-1STE1LF"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -7.578875 -2.636355 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5f06c1cc-3df1-485d-9812-2777cc50779a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -159,7 +149,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "da25c96e-580b-4256-9a8a-e77851c7a33b")
 	)
@@ -366,106 +356,107 @@
 	(pad "1" smd rect
 		(at -7 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d7ccae16-d410-47ab-ba4f-64f221b64bc6")
 	)
 	(pad "2" smd rect
 		(at -6 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0f79f855-1c67-450c-80ac-ee3c2eb0ff8b")
 	)
 	(pad "3" smd rect
 		(at -5 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e74bffb9-af31-43ba-8ddf-73f6d80e1dc9")
 	)
 	(pad "4" smd rect
 		(at -4 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8ed0d46f-7e16-42d6-b36e-eadcfed0a445")
 	)
 	(pad "5" smd rect
 		(at -3 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9eef74e3-eb49-4062-832b-72c010274075")
 	)
 	(pad "6" smd rect
 		(at -2 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a519cc8b-b480-449d-b11b-0863738757b4")
 	)
 	(pad "7" smd rect
 		(at -1 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "05110075-ca7c-4d6c-a368-c3bf633c4f32")
 	)
 	(pad "8" smd rect
 		(at 0 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e47f1272-1c60-414f-b3c9-63c586c2a8ae")
 	)
 	(pad "9" smd rect
 		(at 1 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3e15cf77-c3b0-4a83-96e9-bb451bbd9545")
 	)
 	(pad "10" smd rect
 		(at 2 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "83e83513-bcc1-4129-be34-b0567c07e411")
 	)
 	(pad "11" smd rect
 		(at 3 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fd66d5ed-6929-4edd-8f4a-d78c8a3bbea7")
 	)
 	(pad "12" smd rect
 		(at 4 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f8e627fa-e4c6-4727-ab71-f04ea5d65033")
 	)
 	(pad "13" smd rect
 		(at 5 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cfdf19e2-9849-46d1-9142-87f4ecf097b1")
 	)
 	(pad "14" smd rect
 		(at 6 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "094e7266-3c49-41ea-8f20-9b0013d98e19")
 	)
 	(pad "15" smd rect
 		(at 7 0)
 		(size 0.6 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cb8148bf-18fa-4fcf-aebc-243ff3cb43ee")
 	)
 	(pad "S1" smd rect
 		(at -8 2.1)
 		(size 0.7 4.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "75a49b00-46fd-42e4-87b6-5bc5c540d6d3")
 	)
 	(pad "S2" smd rect
 		(at 8 2.1)
 		(size 0.7 4.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "29bf9460-f164-42db-9134-ac0e3bfe72a7")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SFW15R-1STE1LF.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/SFW15R-1STE1LF.step"
 		(offset
 			(xyz 17.3 -6 2.6)
 		)

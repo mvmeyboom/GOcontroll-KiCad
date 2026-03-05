@@ -1,7 +1,7 @@
 (footprint "GCT_USB4515-GF-A_REVA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.245 -8.755 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d432160-5f5c-4797-b37e-5924ee74fb8c")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -79,7 +69,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f47cc32d-ea5b-419f-a188-1e8515f29c62")
 	)
@@ -274,7 +264,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "07348368-fc91-4984-960b-52e7c0e74e3b")
 	)
@@ -292,37 +282,37 @@
 	(pad "A5" smd rect
 		(at -0.5 -4.95)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b38abe50-9dad-4923-8f41-67b814124942")
 	)
 	(pad "A9" smd rect
 		(at 1.52 -4.95)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57d3e4e3-e3d9-41fa-b4ed-926d4cef8e4a")
 	)
 	(pad "A12" smd rect
 		(at 2.75 -4.95)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e87fb7b2-6592-48ad-bc96-9203b2d4da7a")
 	)
 	(pad "B5" smd rect
 		(at 0.5 -4.95)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e23f687e-9b43-40ed-b095-5380a8553e11")
 	)
 	(pad "B9" smd rect
 		(at -1.52 -4.95)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "372f35c6-e5b5-4eda-be67-35d1bc28367d")
 	)
 	(pad "B12" smd rect
 		(at -2.75 -4.95)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e1f5fdab-7ad0-4e28-8b56-31c9734137e3")
 	)
 	(pad "S1" thru_hole oval
@@ -357,7 +347,8 @@
 		(remove_unused_layers no)
 		(uuid "617b529c-04f5-4c96-99c5-bdd4a0f15ad4")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/USB4515-GF-A_REVA.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/USB4515-GF-A_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)

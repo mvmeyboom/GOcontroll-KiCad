@@ -903,7 +903,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SIM8066-6-1-14-01-A_REVA.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/SIM8066-6-1-14-01-A_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)

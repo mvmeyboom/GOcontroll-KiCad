@@ -1,7 +1,7 @@
 (footprint "CLIFF_FC68131"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.055 -7.389 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6df7286d-46cb-4a26-a3da-75df3e2e324b")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -342,7 +332,8 @@
 		(remove_unused_layers no)
 		(uuid "5a2667b6-1592-4e15-8082-0c9751a1c98b")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/FC68131.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/FC68131.step"
 		(offset
 			(xyz 0 0 0)
 		)

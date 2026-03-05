@@ -1704,7 +1704,7 @@
 		(uuid "0455930f-ad1d-4695-b362-4562a82ccc36")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/ADCR-X02R7SA205.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/ADCR-X02R7SA205.STEP"
 		(offset
 			(xyz 1.75 0 8)
 		)

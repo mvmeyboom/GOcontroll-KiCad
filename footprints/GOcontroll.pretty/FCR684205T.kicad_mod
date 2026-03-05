@@ -135,7 +135,7 @@
 		(uuid "0fb601b6-2aa7-49f2-9be4-9fdd7d8aed17")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/4654_FCR684205T%20OTJ5.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/4654_FCR684205T%20OTJ5.stp"
 		(offset
 			(xyz 0 -8.5 6.5)
 		)

@@ -106,7 +106,7 @@
 		(uuid "0a4c4d37-1da2-4d90-8378-84ccf6825103")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/EMC shield.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/EMC shield.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -916,7 +916,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/DF12NB-20DS-0.5V_51_.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/DF12NB-20DS-0.5V_51_.step"
 		(offset
 			(xyz -3.55 -1.79 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "CAPCP3225X100N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.02404 -1.807772 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "06134c95-96b4-4db4-8e06-1a10fdd5a78d")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -129,7 +119,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ddcf1bf8-4f44-4d9f-a039-be9f59ec6797")
 	)
@@ -216,16 +206,17 @@
 	(pad "1" smd rect
 		(at -1.1 0 180)
 		(size 1.4 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "901fc7ba-de25-46a4-898b-46f45b5e9f67")
 	)
 	(pad "2" smd rect
 		(at 1.1 0 180)
 		(size 1.4 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e1d37fc2-4ce9-452e-b9bb-737a40817719")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/CPH3225A.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/CPH3225A.step"
 		(offset
 			(xyz 0 0 0)
 		)

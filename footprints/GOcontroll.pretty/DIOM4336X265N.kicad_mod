@@ -205,7 +205,7 @@
 		(uuid "61b4ac24-3138-49aa-814f-2d6fe6990e55")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SMBJ150A.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/SMBJ150A.step"
 		(offset
 			(xyz 0 0 0)
 		)

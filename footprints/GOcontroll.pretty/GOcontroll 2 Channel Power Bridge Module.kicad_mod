@@ -77,7 +77,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/PowerBridgeModule_V202.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/PowerBridgeModule_V202.step"
 		(offset
 			(xyz 0 44 3)
 		)

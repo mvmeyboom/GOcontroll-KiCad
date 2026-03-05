@@ -77,7 +77,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/OutputModuleAssembly.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/OutputModuleAssembly.STEP"
 		(offset
 			(xyz 0 0.5 31)
 		)

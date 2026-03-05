@@ -2044,7 +2044,7 @@
 		(uuid "24ddf678-f450-4009-8030-a92a5734bf0d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/CP-32-12_ADI.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/CP-32-12_ADI.step"
 		(offset
 			(xyz 0 0 0)
 		)

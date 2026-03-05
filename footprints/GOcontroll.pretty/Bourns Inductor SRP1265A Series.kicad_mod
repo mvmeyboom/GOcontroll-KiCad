@@ -1,7 +1,7 @@
 (footprint "Bourns Inductor SRP1265A Series"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "df9fe065-dce3-4b10-988a-e0ff7dd1bb49")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -166,18 +153,19 @@
 	(pad "1" smd rect
 		(at -5.55 0)
 		(size 3.1 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "a9d6fb42-b128-45cf-b6c0-4feea33206f4")
 	)
 	(pad "2" smd rect
 		(at 5.55 0)
 		(size 3.1 5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "e62ebcfe-aff4-460b-8118-8f2820d22229")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SRP1265A series.stp"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/SRP1265A series.stp"
 		(offset
 			(xyz 0.15 -0.15 4.8)
 		)

@@ -95,7 +95,7 @@
 		(uuid "7adec84c-4e37-43ff-8c5e-6eea0c88dcea")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/FMD0H334ZF.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/FMD0H334ZF.step"
 		(offset
 			(xyz -7.25 4.75 0.5)
 		)

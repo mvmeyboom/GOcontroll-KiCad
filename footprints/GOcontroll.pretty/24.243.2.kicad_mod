@@ -96,7 +96,7 @@
 		(uuid "788e7b21-04a2-4138-818a-a91ebd6c4bf4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/24.243.2.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/24.243.2.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

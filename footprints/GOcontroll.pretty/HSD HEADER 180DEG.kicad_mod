@@ -1,7 +1,7 @@
 (footprint "HSD HEADER 180DEG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.3 -8.9 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "81e5cfdf-8fe7-49bb-8557-652819e47a6e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -155,7 +145,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "940375a5-2807-4cce-9f99-818e16dbbf83")
 	)
@@ -166,7 +156,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "af522866-42bc-49b7-bdb0-58debca3d341")
 	)
@@ -177,7 +167,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "5402c8fd-10ed-4eb2-a21d-7ec9882e4988")
 	)
@@ -188,7 +178,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "4365af17-f2ba-491f-b5e6-0bdb4568bf0b")
 	)
@@ -236,7 +226,8 @@
 		(remove_unused_layers no)
 		(uuid "c98e32cc-0554-4505-9fb8-b186f336d170")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/c-2291364-1-c-3d.stp"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/c-2291364-1-c-3d.stp"
 		(offset
 			(xyz 0 0 15.5)
 		)

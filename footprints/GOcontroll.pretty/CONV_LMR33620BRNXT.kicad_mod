@@ -1,7 +1,7 @@
 (footprint "CONV_LMR33620BRNXT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SIMPLE SWITCHER® 3.8V to 36V, 2A Synchronous Buck Converter With Ultra-Low EMI 12-VQFN-HR -40 to 125")
 	(property "Reference" "REF**"
@@ -26,18 +26,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cbe69994-ef35-4329-b2a6-69328d07b8c6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -47,6 +35,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -59,34 +48,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -0.125 -1.7) (xy 0.125 -1.7) (xy 0.125 -0.888) (xy -0.125 -0.888)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "d9f26da8-b94a-49be-9ce8-b898c9fb20ac")
-	)
-	(fp_poly
-		(pts
-			(xy -0.125 -0.688) (xy 0.125 -0.688) (xy 0.125 0.124) (xy -0.125 0.124)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "13e31c62-eab3-43ee-93e1-266aa5a5d38f")
-	)
 	(fp_line
 		(start -1.05 -1.585)
 		(end -0.45 -1.585)
@@ -154,9 +120,33 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "57e7dc83-08fb-44da-9b51-77641ddbba4c")
+	)
+	(fp_poly
+		(pts
+			(xy -0.125 -1.7) (xy 0.125 -1.7) (xy 0.125 -0.888) (xy -0.125 -0.888)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d9f26da8-b94a-49be-9ce8-b898c9fb20ac")
+	)
+	(fp_poly
+		(pts
+			(xy -0.125 -0.688) (xy 0.125 -0.688) (xy 0.125 0.124) (xy -0.125 0.124)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "13e31c62-eab3-43ee-93e1-266aa5a5d38f")
 	)
 	(fp_line
 		(start -1.45 -1.95)
@@ -245,84 +235,84 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "eb771c7b-1677-4872-9041-7fd71d880116")
 	)
 	(pad "1" smd roundrect
 		(at -0.9 -1.125)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "a22caf5b-cde1-40f9-ba1b-ef104330e1a0")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 -0.475)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "4708a63e-4d14-4631-a572-3d63a006988d")
 	)
 	(pad "3" smd roundrect
 		(at -0.9 0.175)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "572458cb-5f9b-4d9e-bee5-3cc17320627b")
 	)
 	(pad "4" smd roundrect
 		(at -0.9 0.675)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "f1b35cce-66de-45da-9c5c-61eed6fa8f79")
 	)
 	(pad "5" smd roundrect
 		(at -0.5 1.4 90)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "34664c4f-b99b-44ed-a6da-a575fe02d104")
 	)
 	(pad "6" smd roundrect
 		(at 0 1.4 90)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "6f727169-c3b6-4e87-ad31-fd0fb3a7be38")
 	)
 	(pad "7" smd roundrect
 		(at 0.5 1.4 90)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "debc89ce-5e89-4db9-9aff-18bcf9bd3b62")
 	)
 	(pad "8" smd roundrect
 		(at 0.9 0.675)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "b92c8bee-a399-481d-92c7-37470b453352")
 	)
 	(pad "9" smd roundrect
 		(at 0.9 0.175)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "146fe90d-2601-4fa6-bd30-594b30151611")
 	)
 	(pad "10" smd roundrect
 		(at 0.9 -0.475)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "400c706d-d6dd-4934-90e7-03d6d5711e4b")
 	)
 	(pad "11" smd roundrect
 		(at 0.9 -1.125)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.06)
 		(uuid "da8101e5-d8e0-4ad3-8048-4816e5af8764")
 	)
@@ -332,7 +322,8 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "929a7b70-fbdb-48d0-bb93-c6c09571824e")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/LMR33630ARNXT.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/LMR33630ARNXT.step"
 		(offset
 			(xyz 0 0 0)
 		)
