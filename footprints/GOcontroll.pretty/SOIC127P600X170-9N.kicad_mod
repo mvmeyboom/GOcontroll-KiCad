@@ -219,7 +219,7 @@
 		(uuid "09e1b86d-9ece-4f72-b174-eb9ce4cd6ca8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/TLS125D0EJXUMA1.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/TLS125D0EJXUMA1.stp"
 		(offset
 			(xyz 0 0 0)
 		)

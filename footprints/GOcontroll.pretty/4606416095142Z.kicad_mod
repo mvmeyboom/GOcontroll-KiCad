@@ -100,7 +100,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/4606416095142Z.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/4606416095142Z.STEP"
 		(offset
 			(xyz 0 0 -0.85)
 		)

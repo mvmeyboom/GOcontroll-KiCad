@@ -203,7 +203,7 @@
 		(uuid "640321e8-bc50-458b-9892-4f6f89e7c83c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/416131160802.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/416131160802.step"
 		(offset
 			(xyz 0 0 1)
 		)
