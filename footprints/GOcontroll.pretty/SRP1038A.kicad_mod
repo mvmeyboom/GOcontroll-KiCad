@@ -1,7 +1,7 @@
 (footprint "SRP1038A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "36dd1e1c-dbec-46e5-8bae-e0705072c602")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a583243c-a87b-448c-96bd-aa2ef7772263")
 		(effects
 			(font
 				(size 1 1)
@@ -166,18 +153,19 @@
 	(pad "1" smd rect
 		(at -4.75 0)
 		(size 4.1 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5947cfaa-fc70-473a-b40a-a5355e047f04")
 	)
 	(pad "2" smd rect
 		(at 4.75 0)
 		(size 4.1 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "b41b613f-803b-40c1-a3ac-020b59001e37")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SRP1038AA-2R2M to -470M.stp"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/SRP1038AA-2R2M to -470M.stp"
 		(offset
 			(xyz 0 0 3.25)
 		)

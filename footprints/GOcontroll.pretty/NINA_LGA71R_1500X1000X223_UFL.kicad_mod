@@ -710,7 +710,7 @@
 		(uuid "7e94321e-7bb4-4b07-993d-9f1cc55b06e3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/NINA-B400.STEP"
+	(model "${GOCONTROLL_3DMODEL_DIR}/NINA-B400.STEP"
 		(offset
 			(xyz -8.375 -13.6 3.3)
 		)

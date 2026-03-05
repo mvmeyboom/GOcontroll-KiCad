@@ -1198,7 +1198,7 @@
 		(uuid "ea0caec6-d6aa-45eb-b7f9-cc3678a7e086")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/HSEC8-160-01-L-RA-TR.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/HSEC8-160-01-L-RA-TR.stp"
 		(offset
 			(xyz 0 -1.5 3)
 		)

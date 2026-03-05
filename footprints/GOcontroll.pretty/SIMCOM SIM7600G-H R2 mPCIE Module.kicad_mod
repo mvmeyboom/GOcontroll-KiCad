@@ -78,7 +78,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/30-SIMCOM SIM7600G-H mPCIE.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/30-SIMCOM SIM7600G-H mPCIE.step"
 		(offset
 			(xyz 0 0.5 3)
 		)

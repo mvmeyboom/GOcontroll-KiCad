@@ -1,7 +1,7 @@
 (footprint "VREG_LM5017MR_NOPB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.075 -3.635 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b45b03ce-a4eb-406d-ba6c-d1de7659a00a")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -70,50 +60,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "31a33206-f6ce-49a3-b63c-07a73e9b065a")
-	)
-	(fp_line
-		(start -1.95 -2.525)
-		(end 1.95 -2.525)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5e126a77-d79f-4e44-bc58-0ff59d88273a")
-	)
-	(fp_line
-		(start -1.95 2.525)
-		(end 1.95 2.525)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "30010a58-2c15-4365-833a-2f31ebb8304a")
-	)
-	(fp_circle
-		(center -4.07 -1.905)
-		(end -3.97 -1.905)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "da685a29-781d-4527-becf-c9fb1ad3a5f7")
-	)
-	(fp_poly
-		(pts
-			(xy -1.355 -1.7) (xy 1.355 -1.7) (xy 1.355 1.7) (xy -1.355 1.7)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "736be744-430f-429a-909a-7c2ca0658b5d")
 	)
@@ -145,7 +92,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "5110e552-7c7c-433c-b175-23717889f0df")
 	)
@@ -177,7 +124,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "fee1107c-e911-4618-8bc2-11872c173a01")
 	)
@@ -209,7 +156,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "24f5f3c9-e70a-4a08-b1cf-5234967a3cd2")
 	)
@@ -241,7 +188,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "95c4b5d3-0aa7-4916-ad91-2bb1be960b2c")
 	)
@@ -273,7 +220,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "f626ddd7-f2c6-4749-8579-50779669dc11")
 	)
@@ -305,7 +252,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "07677e52-44df-4881-8e29-bcf22c4a000f")
 	)
@@ -337,7 +284,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "e1e0ba86-f374-4ad4-a4ea-2d94a08f9916")
 	)
@@ -369,9 +316,52 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "4870921e-77ea-428e-bfd4-38b458969bd7")
+	)
+	(fp_line
+		(start -1.95 -2.525)
+		(end 1.95 -2.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e126a77-d79f-4e44-bc58-0ff59d88273a")
+	)
+	(fp_line
+		(start -1.95 2.525)
+		(end 1.95 2.525)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30010a58-2c15-4365-833a-2f31ebb8304a")
+	)
+	(fp_circle
+		(center -4.07 -1.905)
+		(end -3.97 -1.905)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "da685a29-781d-4527-becf-c9fb1ad3a5f7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.355 -1.7) (xy 1.355 -1.7) (xy 1.355 1.7) (xy -1.355 1.7)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "31a33206-f6ce-49a3-b63c-07a73e9b065a")
 	)
 	(fp_line
 		(start -3.725 -2.7)
@@ -460,7 +450,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4b57b77f-8bd5-48d8-b7a7-77aaca46109d")
 	)
@@ -598,7 +588,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "3ea5609c-1887-4c78-9aa1-1cb492e131d4")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/LMR23625CFQDDARQ1.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/LMR23625CFQDDARQ1.step"
 		(offset
 			(xyz 0 0 0)
 		)

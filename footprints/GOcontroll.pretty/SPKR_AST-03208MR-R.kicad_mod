@@ -1,7 +1,7 @@
 (footprint "SPKR_AST-03208MR-R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 3.175 -17.385 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "25a88203-89b2-44f4-a3dc-86959019c967")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -99,7 +89,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "0227646b-259a-4a41-85ee-17800fcd4135")
 	)
@@ -110,7 +100,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8ef1b849-2194-41e3-b6d3-cba388048ef2")
 	)
@@ -151,7 +141,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "429a8634-db27-4515-aa2c-daaaa2fae8ed")
 	)
@@ -171,7 +161,8 @@
 		(remove_unused_layers no)
 		(uuid "43980f05-2c9d-4256-9e29-ca0294b870c6")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/AST-03208MR-R.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/AST-03208MR-R.step"
 		(offset
 			(xyz 0 0 1)
 		)

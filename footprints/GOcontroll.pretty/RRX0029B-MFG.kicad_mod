@@ -646,7 +646,7 @@
 		(members "b51ca7d1-0307-4a73-8f0a-6cd4b264ac5e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/RRX0029B.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/RRX0029B.stp"
 		(offset
 			(xyz 0 0 0)
 		)

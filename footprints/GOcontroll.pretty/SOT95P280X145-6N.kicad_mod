@@ -1,7 +1,7 @@
 (footprint "SOT95P280X145-6N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.375 -2.635 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5ecd9fc-134c-4dc8-92fa-1837b77666de")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b8c744dc-eb17-4757-bc45-ea4752d7d83d")
 	)
@@ -260,53 +250,54 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2f996776-c3ab-47db-92c5-ac2164bef8ec")
 	)
 	(pad "1" smd roundrect
 		(at -1.255 -0.95)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "4d950158-ac93-46e2-979d-c0a4f19469e1")
 	)
 	(pad "2" smd roundrect
 		(at -1.255 0)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "aa4efebb-f155-49e6-99b7-7af310d59e7f")
 	)
 	(pad "3" smd roundrect
 		(at -1.255 0.95)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "f0addba2-cb6f-40d3-aad8-d7ec572b4e8b")
 	)
 	(pad "4" smd roundrect
 		(at 1.255 0.95)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "a40eb5fb-1d54-48f7-a8c7-a83e9367211c")
 	)
 	(pad "5" smd roundrect
 		(at 1.255 0)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "f567eddc-a9a1-4979-ab4a-2edbf07be8d9")
 	)
 	(pad "6" smd roundrect
 		(at 1.255 -0.95)
 		(size 1.21 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.07)
 		(uuid "b3a4dd0d-bb5c-4611-99d7-4a98fd6e67ee")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/LM74700QDBVTQ1.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/LM74700QDBVTQ1.step"
 		(offset
 			(xyz 0 0 0)
 		)

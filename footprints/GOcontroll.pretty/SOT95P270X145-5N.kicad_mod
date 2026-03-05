@@ -1,7 +1,7 @@
 (footprint "SOT95P270X145-5N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.09329 -8.7407 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "35e8ec66-cdfa-4d8b-be8d-d1b41c1034d0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -467,39 +457,40 @@
 	(pad "1" smd rect
 		(at -1.3716 -0.9398)
 		(size 1.3208 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c9c729af-3afc-46b4-a20c-cf8467522040")
 	)
 	(pad "2" smd rect
 		(at -1.3716 0)
 		(size 1.3208 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "2a532151-eb84-4380-a69a-03405db16ef9")
 	)
 	(pad "3" smd rect
 		(at -1.3716 0.9398)
 		(size 1.3208 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ea790344-5392-4dce-8974-1358f9c96eda")
 	)
 	(pad "4" smd rect
 		(at 1.3716 0.9398)
 		(size 1.3208 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "295aa595-1d51-46a9-99ab-aa584b07f294")
 	)
 	(pad "5" smd rect
 		(at 1.3716 -0.9398)
 		(size 1.3208 0.5588)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "7c920e8f-e62a-4bc3-bfcb-bfb79a63bc07")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/MCP1402T-E_OT.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/MCP1402T-E_OT.step"
 		(offset
 			(xyz 0 0 0)
 		)

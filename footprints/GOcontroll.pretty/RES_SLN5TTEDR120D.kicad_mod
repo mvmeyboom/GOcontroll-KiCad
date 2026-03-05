@@ -205,7 +205,7 @@
 		(uuid "685bc61f-5748-4d89-99f9-5eb50c9b2f1e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SLN5TTEDR120D.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/SLN5TTEDR120D.step"
 		(offset
 			(xyz 0 0 0)
 		)

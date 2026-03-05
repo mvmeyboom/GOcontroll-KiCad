@@ -1070,7 +1070,7 @@
 		(uuid "0c768e25-5fa5-41c1-8365-774e85d0490d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/HSEC8-150-01-X-RA-XX.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/HSEC8-150-01-X-RA-XX.step"
 		(offset
 			(xyz 0 -1.5 3)
 		)

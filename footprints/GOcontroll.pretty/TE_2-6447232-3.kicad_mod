@@ -1,7 +1,7 @@
 (footprint "TE_2-6447232-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -15.877575 -15.877605 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7c471b87-fa00-4e6b-b0c7-debc9b5898b6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -189,7 +179,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "28f30556-4cba-4eac-82a0-c343b2ac7771")
 	)
@@ -440,7 +430,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bc6970e8-b316-4628-b986-05497b57d96b")
 	)
@@ -778,7 +768,8 @@
 		(solder_mask_margin 0.102)
 		(uuid "721f0c4a-21ea-4f52-86db-799cdd908688")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/2-6447232-3.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/2-6447232-3.step"
 		(offset
 			(xyz 0 0 24.75)
 		)

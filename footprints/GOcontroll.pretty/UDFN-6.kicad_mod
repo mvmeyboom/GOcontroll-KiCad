@@ -141,7 +141,7 @@
 		(uuid "b5d63826-3a84-4f28-b2b1-65f72e9a5fb4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/Download_STP_2521020222501 (rev1).stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/Download_STP_2521020222501 (rev1).stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "SOT95P280X145-5N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.06 -2.508 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5e803174-c3ea-4cd8-abd6-5107b2dd1dd6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -99,7 +89,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7136b237-6e53-4711-89d6-c351d18bdc52")
 	)
@@ -190,46 +180,47 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "65d444a2-bc6a-4537-bbc0-72f83d0189c2")
 	)
 	(pad "1" smd roundrect
 		(at -1.255 -0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "1ed69ed5-525e-46e8-961c-b4bf2d2043a3")
 	)
 	(pad "2" smd roundrect
 		(at -1.255 0)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "7fbcdbed-a4f9-4661-b616-6cc7ba0827e1")
 	)
 	(pad "3" smd roundrect
 		(at -1.255 0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "fbeb8d1f-43b5-4aa1-8292-b77498bcd891")
 	)
 	(pad "4" smd roundrect
 		(at 1.255 0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "42a20474-62a4-4323-94c3-3126e5eb9a0a")
 	)
 	(pad "5" smd roundrect
 		(at 1.255 -0.95)
 		(size 1.21 0.59)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "0b81b7d5-aeee-482b-b21b-9230a5964f79")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/TPS2041BQDBVRQ1.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/TPS2041BQDBVRQ1.step"
 		(offset
 			(xyz 0 0 0)
 		)

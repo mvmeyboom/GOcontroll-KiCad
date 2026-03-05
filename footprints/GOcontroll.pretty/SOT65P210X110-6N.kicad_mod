@@ -1,7 +1,7 @@
 (footprint "SOT65P210X110-6N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.04 -2.008 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "97c8a7b1-dacc-489b-bed0-03dd590184b0")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8e7454e0-4ca3-4e46-a12c-d37f8d917a0c")
 	)
@@ -180,14 +170,14 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "549207f0-be5e-4779-9fdc-51f33c78a9b8")
 	)
 	(pad "1" smd roundrect
 		(at -0.96 -0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "ff6807a8-6352-4a29-a656-05c4a4dfb1d9")
@@ -195,7 +185,7 @@
 	(pad "2" smd roundrect
 		(at -0.96 0)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "adbfa131-0341-47ba-bb0d-bb974ad8ad6d")
@@ -203,7 +193,7 @@
 	(pad "3" smd roundrect
 		(at -0.96 0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "2854c651-c688-4a8b-ae39-ae29fcf8d303")
@@ -211,7 +201,7 @@
 	(pad "4" smd roundrect
 		(at 0.96 0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "5851ff8d-e6ed-4428-a38b-9eab5c1820c0")
@@ -219,7 +209,7 @@
 	(pad "5" smd roundrect
 		(at 0.96 0)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "46b7abf1-4867-4f76-844e-ad1f7ce05fc6")
@@ -227,12 +217,13 @@
 	(pad "6" smd roundrect
 		(at 0.96 -0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.102)
 		(uuid "12cc5d5a-e2ca-4514-81ef-b7a78a5df99a")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/INA186A2IDCKR.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/INA186A2IDCKR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "XTAL_ABM8AIG-12.000MHz-2-T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 1.525 -2.885 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2262049f-c306-428a-828a-fb4619cfca76")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -89,7 +79,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "fb9050f7-782e-41c5-a57e-4e2201640913")
 	)
@@ -180,35 +170,36 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2466d4b6-ec12-458c-949e-db0ec4bcd8d7")
 	)
 	(pad "1" smd rect
 		(at -0.8 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a8da1e78-ce90-4bd6-b842-308cac265ca6")
 	)
 	(pad "2" smd rect
 		(at -0.8 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27edfcc4-5d5d-4997-b829-86a403c58d51")
 	)
 	(pad "3" smd rect
 		(at 0.8 1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eaab489f-400b-4970-8d79-a0dc90f0309d")
 	)
 	(pad "4" smd rect
 		(at 0.8 -1.1)
 		(size 1.2 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7760f18c-e738-4041-a2c9-33eac04d768a")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/ABM8AIG-12.000MHz-2-T.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/ABM8AIG-12.000MHz-2-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

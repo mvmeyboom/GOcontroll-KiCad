@@ -1,7 +1,7 @@
 (footprint "SOT65P210X110-5N"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.675 -2.135 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c198b70d-979a-44b5-aa19-bf7980968e9f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -89,7 +77,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7738df7b-1ad7-475c-ab7e-9d602f10cf4e")
 	)
@@ -180,14 +168,14 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "53f96631-898a-47ed-83da-e4e18a0655a5")
 	)
 	(pad "1" smd roundrect
 		(at -0.96 -0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "a608ec25-71c7-419c-a300-163e1716440b")
@@ -195,7 +183,7 @@
 	(pad "2" smd roundrect
 		(at -0.96 0)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "7b761a36-967c-490e-90ba-3f4548875dcc")
@@ -203,7 +191,7 @@
 	(pad "3" smd roundrect
 		(at -0.96 0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "33e9e0df-38fd-4657-b3c4-e408664e760e")
@@ -211,7 +199,7 @@
 	(pad "4" smd roundrect
 		(at 0.96 0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "e73c2d60-d87a-463b-b428-da4eb0a7183b")
@@ -219,12 +207,13 @@
 	(pad "5" smd roundrect
 		(at 0.96 -0.65)
 		(size 1.19 0.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.05)
 		(solder_mask_margin 0.102)
 		(uuid "b19f423c-7c07-4f42-9f90-a1bad8760db8")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SOT65P210X110-5N.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/SOT65P210X110-5N.step"
 		(offset
 			(xyz 0 0 0)
 		)

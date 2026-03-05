@@ -1,7 +1,7 @@
 (footprint "XTAL_ABS07-120-32.768KHZ-T"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.018 -1.8564 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "eb73fe8d-b4e8-4ef4-ba3e-91467b8972ef")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -165,16 +155,17 @@
 	(pad "1" smd rect
 		(at -1.25 0)
 		(size 1.1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cf136fbf-c126-4840-9bcd-c7068a5cf24a")
 	)
 	(pad "2" smd rect
 		(at 1.25 0)
 		(size 1.1 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8dd11910-b2f7-4dca-a56c-c4ef9e701fe8")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/ABS07-120-32.768KHZ-T.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/ABS07-120-32.768KHZ-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

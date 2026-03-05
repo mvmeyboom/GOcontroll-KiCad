@@ -1,7 +1,7 @@
 (footprint "INDUCTOR TDK-LTF4022-D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6e9a392d-80f6-4bcc-a158-70cc7c49b43f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -71,7 +59,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "e847de76-b8df-484b-81a9-7a990776189e")
 	)
@@ -170,18 +158,19 @@
 	(pad "1" smd rect
 		(at -2.075 0)
 		(size 1.35 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "9d6ab641-7c55-4acc-abce-b7633f7a7de3")
 	)
 	(pad "2" smd rect
 		(at 2.075 0)
 		(size 1.35 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "0a3f1c0f-3f61-4253-8a83-c1c6f7c3f38e")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/ltf4022-d-textured.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/ltf4022-d-textured.step"
 		(offset
 			(xyz -13.5 0 -14.5)
 		)

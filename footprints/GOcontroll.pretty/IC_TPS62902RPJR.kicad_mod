@@ -1,7 +1,7 @@
 (footprint "IC_TPS62902RPJR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.324 -1.9928 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb790df1-03e5-4c5a-87ef-09cad91ec87f")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,21 +47,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -1.696 -0.25)
-		(end -1.596 -0.25)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "dfde150d-2ebd-4388-8400-f6f23211c797")
-	)
 	(fp_poly
 		(pts
 			(xy -1 -0.4) (xy -0.25 -0.4) (xy -0.25 -0.1) (xy -1 -0.1)
@@ -81,7 +60,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "1edcac74-da4e-4cfd-9eac-4258bd139f36")
 	)
@@ -93,7 +72,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "e30dffbd-0f26-4ad2-8b8b-0969f6fe85cb")
 	)
@@ -105,7 +84,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "e3aa12e5-ef92-4ca8-8e86-7324efc7ec27")
 	)
@@ -117,7 +96,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "c70f6a01-e10a-49d6-a2e7-f93edd41ad70")
 	)
@@ -129,7 +108,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "befdd5c1-b17b-4af6-9803-533f131a53c6")
 	)
@@ -141,7 +120,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "b8b301b3-2ff9-4b52-8ead-4995238d4edb")
 	)
@@ -153,7 +132,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "0281a16a-a8f3-4e4f-b0e7-44fbf3c0241d")
 	)
@@ -165,7 +144,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "bc8afc9c-bdae-4acf-affe-a2f12464f075")
 	)
@@ -177,9 +156,20 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "05ed4b4d-0e20-4d17-8499-9e964c0a21f3")
+	)
+	(fp_circle
+		(center -1.696 -0.25)
+		(end -1.596 -0.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dfde150d-2ebd-4388-8400-f6f23211c797")
 	)
 	(fp_line
 		(start -1.2 -1.45)
@@ -268,7 +258,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "f5e74c0e-7142-422e-ab44-e9dc1f7c6332")
 	)
@@ -326,7 +316,8 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "5cde345b-43fb-46bc-ba2f-576ad32219b9")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/TPS62902RPJR.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/TPS62902RPJR.step"
 		(offset
 			(xyz 0 0 0)
 		)

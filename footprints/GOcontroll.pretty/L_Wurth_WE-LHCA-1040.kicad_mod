@@ -191,7 +191,7 @@
 		(uuid "13674c18-8194-477a-a419-74c03035ea70")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/L_Wurth_WE-LHCA-1040.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/L_Wurth_WE-LHCA-1040.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -373,7 +373,7 @@
 		(uuid "b01fa42e-b27b-49fc-9e26-0f5e078f5d4f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/JXR0-0015NLT.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/JXR0-0015NLT.step"
 		(offset
 			(xyz -4.5 17 7)
 		)

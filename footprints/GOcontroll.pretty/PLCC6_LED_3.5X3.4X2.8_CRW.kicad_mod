@@ -1,7 +1,7 @@
 (footprint "PLCC6_LED_3.5X3.4X2.8_CRW"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "CLX6E-FKC-CH1M1D1BB7C3D3 ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d3257a27-6a50-4dde-ba93-70385b1554f4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -597,40 +587,41 @@
 	(pad "1" smd rect
 		(at -1.5621 -1.000001)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3dbf67f6-a655-4676-bfd4-b73eb73a3f3a")
 	)
 	(pad "2" smd rect
 		(at -1.5621 0)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "59240d35-128e-408d-bce3-a23399aee024")
 	)
 	(pad "3" smd rect
 		(at -1.5621 1.000001)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7b9e424b-94aa-44cc-8ea3-47de2a9913ab")
 	)
 	(pad "4" smd rect
 		(at 1.5621 1.000001)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ab716f8a-b422-4ef1-a3e6-feeec0bb9fd4")
 	)
 	(pad "5" smd rect
 		(at 1.5621 0)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a97fc23-bd66-4e59-857d-0b7a228c85e3")
 	)
 	(pad "6" smd rect
 		(at 1.5621 -1.000001)
 		(size 1.1938 0.7112)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "67485529-e3aa-4e4c-bddb-6dccc59c2028")
 	)
-	(model "${KICAD8_USER_3DMODEL_DIR}/PLCC6_LED_3_5X3_4X2_8_CRW.step"
+	(embedded_fonts no)
+	(model "${GOCONTROLL_3DMODEL_DIR}/PLCC6_LED_3_5X3_4X2_8_CRW.step"
 		(offset
 			(xyz 0 0 0)
 		)

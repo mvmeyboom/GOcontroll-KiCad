@@ -1456,7 +1456,7 @@
 		(uuid "2de28d51-7bff-4835-9f49-f563ea84d184")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/RVC0020A.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/RVC0020A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

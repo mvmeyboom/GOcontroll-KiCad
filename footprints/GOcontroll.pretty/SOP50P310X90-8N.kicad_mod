@@ -237,7 +237,7 @@
 		(uuid "5b7b5912-53ef-4958-a099-9bc0483d62d4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/TS5A3357QDCURQ1.step"
+	(model "${GOCONTROLL_3DMODEL_DIR}/TS5A3357QDCURQ1.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -386,7 +386,7 @@
 		(uuid "abd42baa-8485-48fb-989e-f3dd5146be9d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_USER_3DMODEL_DIR}/SRP 7028A series.stp"
+	(model "${GOCONTROLL_3DMODEL_DIR}/SRP 7028A series.stp"
 		(offset
 			(xyz 0 0.3 2)
 		)
