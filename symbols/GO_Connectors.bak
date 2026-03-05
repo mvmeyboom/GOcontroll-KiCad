@@ -31738,7 +31738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Pulse_JXD6-0001NL_Horizontal"
+		(property "Footprint" "GOcontroll:JXR00015NLT"
 			(at 0 12.7 0)
 			(effects
 				(font

@@ -34846,7 +34846,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SnapEDA Library:GCT_USB4515-GF-A_REVA"
+		(property "Footprint" "GOcontroll:GCT_USB4515-GF-A_REVA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -34904,14 +34904,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "USB4515-GF-A_REVA_0_0"
