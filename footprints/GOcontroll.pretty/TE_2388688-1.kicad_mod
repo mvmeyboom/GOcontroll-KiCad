@@ -459,24 +459,24 @@
 	(model "${KICAD8_USER_3DMODEL_DIR}/c-2388688-1-a1-3d.stp"
 		(hide yes)
 		(offset
-			(xyz 0 0 26.5)
+			(xyz 0 0 26.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 	(model "${KICAD8_USER_3DMODEL_DIR}/c-2388688-1-a1-3d-a.STEP"
 		(offset
-			(xyz 0 0 26.5)
+			(xyz 0 0 26.75)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

@@ -1,7 +1,7 @@
 (footprint "STENCIL ALIGNMENT HOLE ⌀1.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "386e2d71-7129-4149-80d8-44c15260437f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d6723838-ef78-4efe-869d-3db2e62bcdeb")
 		(effects
 			(font
 				(size 1 1)
@@ -75,9 +62,20 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "46baae86-306c-4e39-afa8-e307ceff9415")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Paste")
+		(uuid "6c0849b7-e26d-4abc-8b42-1a9083b87355")
 	)
 	(fp_circle
 		(center 0 0)
@@ -86,7 +84,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "e82b52d5-7e18-40e7-b9ec-3757832e4edd")
 	)
@@ -102,4 +100,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,0 +1,120 @@
+(footprint "WS-TASU SMT 3.5x2.9mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.15 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f690a8a9-a60f-46c1-8280-e96831c6899e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33e2e06a-b0aa-4586-b36b-fafb81631abb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0956c6c-8473-410e-b936-0c01e9331fb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ed341ca-4a7e-40f1-bb94-d685c3df41fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.75 -1.4)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cf550f66-9ac3-4015-80fa-8da69e3cf936")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78d15d46-3646-4082-8427-56cde634c089")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.025 -0.7)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06d6c0e3-3dac-4865-ad4c-a51eea38f214")
+	)
+	(pad "2" smd rect
+		(at 2.025 -0.7)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11ea4978-25f4-43d5-932f-70f5a1ea2dec")
+	)
+	(pad "3" thru_hole rect
+		(at -2.025 0.8)
+		(size 1.6 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2726c1df-3f64-4b95-8b2d-463debfb22d7")
+	)
+	(pad "4" thru_hole rect
+		(at 2.025 0.8)
+		(size 1.6 1)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1167e9e0-f36a-4cda-813f-d258b09cc143")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_USER_3DMODEL_DIR}/Download_STP_434331013822 (rev1).stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
